@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+
+<style>
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #cfe8ff; /* light blue */
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.login-box {
+background: white;
+padding: 30px;
+border-radius: 12px;
+width: 320px;
+box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.login-box h2 {
+margin-bottom: 20px;
+text-align: center;
+}
+
+.input-group {
+margin-bottom: 15px;
+}
+
+.input-group label {
+display: block;
+font-size: 14px;
+margin-bottom: 5px;
+}
+
+.input-group input {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 14px;
+}
+
+.options {
+display: flex;
+justify-content: space-between;
+font-size: 13px;
+margin-bottom: 15px;
+}
+
+.login-btn {
+width: 100%;
+padding: 12px;
+background: #2a6df4;
+color: white;
+border: none;
+border-radius: 6px;
+font-size: 16px;
+cursor: pointer;
+}
+
+.login-btn:hover {
+background: #1f55c5;
+}
+
+.footer-links {
+margin-top: 15px;
+text-align: center;
+font-size: 13px;
+}
+
+.footer-links a {
+color: #2a6df4;
+text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="login-box">
+<h2>Member Login</h2>
+
+<form>
+<div class="input-group">
+<label>Username</label>
+<input type="text" placeholder="Enter username">
+</div>
+
+<div class="input-group">
+<label>Password</label>
+<input type="password" placeholder="Enter password">
+</div>
+
+<div class="options">
+<label><input type="checkbox"> Remember me</label>
+<a href="#">Forgot?</a>
+</div>
+
+<button class="login-btn">Sign In</button>
+</form>
+
+<div class="footer-links">
+<p>Not a member? <a href="#">Sign up</a></p>
+</div>
+</div>
+
+</body>
+</html>
